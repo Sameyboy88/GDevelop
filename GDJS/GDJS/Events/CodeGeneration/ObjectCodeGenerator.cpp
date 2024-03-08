@@ -124,7 +124,7 @@ gd::String ObjectCodeGenerator::GenerateRuntimeObjectCompleteCode(
       [&]() {
         return gd::String(R"jscode_template(
 
-  // Animatable capability
+  // gdjs.Animatable interface implementation
   getAnimator() {
     return this._animator;
   }
