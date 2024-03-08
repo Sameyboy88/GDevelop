@@ -35,6 +35,8 @@ import TeamPlans from './Icons/TeamPlans';
 import EducationPlans from './Icons/EducationPlans';
 import GDevelopThemeContext from '../../UI/Theme/GDevelopThemeContext';
 import PlaceholderError from '../../UI/PlaceholderError';
+import Link from '../../UI/Link';
+import Window from '../../Utils/Window';
 
 const styles = {
   diamondIcon: {
@@ -219,8 +221,18 @@ const SubscriptionDetails = ({
           </Text>
           <Text size="body" noMargin>
             <Trans>
-              Unlock more exports, cloud projects, leaderboards, collaboration
-              features and remove the GDevelop splashscreen.
+              Publish to Android, iOS, unlock more cloud projects, leaderboards,
+              collaboration features and more online services.{' '}
+              <Link
+                href="https://gdevelop.io/pricing#feature-comparison"
+                onClick={() =>
+                  Window.openExternalURL(
+                    'https://gdevelop.io/pricing#feature-comparison'
+                  )
+                }
+              >
+                Learn more
+              </Link>
             </Trans>
           </Text>
         </Column>
@@ -266,7 +278,7 @@ const SubscriptionDetails = ({
           </Paper>
         ) : (
           // On web/desktop, displays the subscription as usual:
-          <ColumnStackLayout noMargin>
+          <ColumnStackLayout alignItems="center" noMargin>
             <PlanCard
               subscriptionPlanWithPricingSystems={
                 userSubscriptionPlanWithPricingSystems
@@ -292,14 +304,16 @@ const SubscriptionDetails = ({
                             </LeftLoader>
                           }
                           primary
+                          fullWidth
                           onClick={onManageSubscription}
                           disabled={isManageSubscriptionLoading}
                         />
                       ) : null,
                       <RaisedButton
                         key="manage"
-                        label={<Trans>Manage subscription</Trans>}
+                        label={<Trans>Change subscription</Trans>}
                         primary
+                        fullWidth
                         onClick={() =>
                           openSubscriptionDialog({
                             analyticsMetadata: { reason: 'Consult profile' },
