@@ -11,7 +11,7 @@ module.exports = [
     "languageCode": "ar_SA",
     "languageName": "Arabic",
     "languageNativeName": "اللغة العربية",
-    "translationRatio": 0.9755464987032234
+    "translationRatio": 0.9756700012350253
   },
   {
     "languageCode": "az_AZ",
@@ -47,7 +47,7 @@ module.exports = [
     "languageCode": "cs_CZ",
     "languageName": "Czech",
     "languageNativeName": "čeština",
-    "translationRatio": 0.2852908484623935
+    "translationRatio": 0.28788440163023343
   },
   {
     "languageCode": "da_DK",
@@ -59,7 +59,7 @@ module.exports = [
     "languageCode": "de_DE",
     "languageName": "German",
     "languageNativeName": "Deutsch",
-    "translationRatio": 0.7138446338149932
+    "translationRatio": 0.7148326540694084
   },
   {
     "languageCode": "el_GR",
@@ -131,7 +131,7 @@ module.exports = [
     "languageCode": "hu_HU",
     "languageName": "Hungarian",
     "languageNativeName": "magyar",
-    "translationRatio": 0.1873533407434852
+    "translationRatio": 0.19377547239718418
   },
   {
     "languageCode": "id_ID",
@@ -149,13 +149,13 @@ module.exports = [
     "languageCode": "it_IT",
     "languageName": "Italian",
     "languageNativeName": "Italiano",
-    "translationRatio": 0.97986908731629
+    "translationRatio": 0.9817216252933185
   },
   {
     "languageCode": "ja_JP",
     "languageName": "Japanese",
     "languageNativeName": "日本語",
-    "translationRatio": 0.9846856860565641
+    "translationRatio": 0.9865382240335927
   },
   {
     "languageCode": "ka_GE",
@@ -209,7 +209,7 @@ module.exports = [
     "languageCode": "nl_NL",
     "languageName": "Dutch",
     "languageNativeName": "Nederlands",
-    "translationRatio": 0.49326911201679635
+    "translationRatio": 0.4943806348030134
   },
   {
     "languageCode": "no_NO",
@@ -311,7 +311,7 @@ module.exports = [
     "languageCode": "tr_TR",
     "languageName": "Turkish",
     "languageNativeName": "Türkçe",
-    "translationRatio": 0.9883907620106213
+    "translationRatio": 0.9902432999876497
   },
   {
     "languageCode": "uk_UA",
